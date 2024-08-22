@@ -5,17 +5,256 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+
 </head>
 <style>
     body{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     }
 </style>
 <body>
-  
+<!-- first section  -->
+  <div class="p-10 xl:px-32" style="background-image: url('images/bg.jpg'); background-size: cover;">
+        <!-- header -->
+        <div class="header  flex justify-between w-full">
+            <div class="logo">
+                <img src="images/logo.svg" alt="logo">
+            </div>
+            <div class="account_info flex gap-2">
+                <a href="#" class="text-xl text-white font-bold hover:text-[#E4560D]">ME</a>
+                <a href="#" class="text-xl text-white font-bold hover:text-[#E4560D]">BLOG</a>
+            </div>
+        </div>
+        <!-- header end -->
+        <div class="profileinfo w-full flex flex-col items-center justify-center my-24  gap-7 md:items-start xl:py-40 " >
+            <span class="text-[#E4560D] font-bold text-lg text-center md:text-xl"> HELLO MY NAME IS</span>
+            <h1 class="text-3xl md:text-6xl text-white font-bold lg:text-7xl  text-center">Patrick Bradley</h1>
+            <p class="text-white text-xl text-center">I'M A WRITER AND VIDEO BLOGGER</p>
+            <div class="socialmedia flex gap-1">
+                <a href="" class="hover:scale-110 transition-all ease-in-out duration-300 hover:shadow-3xl"><iconify-icon class="text-white bg-zinc-800 rounded-full p-3 text-3xl" icon="mdi:facebook-messenger"></iconify-icon></a>
+                <a href="" class="hover:scale-110 transition-all ease-in-out duration-300 hover:shadow-3xl"><iconify-icon class="text-white bg-zinc-800 rounded-full p-3 text-3xl" icon="ri:twitter-fill"></iconify-icon></a>
+                <a href="" class="hover:scale-110 transition-all ease-in-out duration-300 hover:shadow-3xl"><iconify-icon class="text-white bg-zinc-800 rounded-full p-3 text-3xl" icon="ph:instagram-logo-fill"></iconify-icon></a>
+                <a href="" class="hover:scale-110 transition-all ease-in-out duration-300 hover:shadow-3xl"><iconify-icon class="text-white bg-zinc-800 rounded-full p-3 text-3xl" icon="mdi:youtube"></iconify-icon></a>
+            </div>
+        </div>
+  </div>
+  <!-- first section end -->
+
+<!-- second section -->
+    <div class="w-full bg-[#18181B] p-10 xl:px-32 grid grid-cols-1 gap-7">
+        <!-- header  -->
+        <div class="w-full flex flex-col gap-5 items-center justify-center ">
+            <div class="count w-full text-center md:text-start">
+                <span class="text-[#E4560D] font-bold text-xl">01.</span>
+            </div>
+            <div class="services flex flex-col gap-5 items-center justify-center w-full md:flex-row md:justify-between">
+                <h1 class="text-3xl text-white font-bold">Services</h1>
+                <a href="#"><button type="button" class="p-3 w-fit text-white bg-[#27272A] uppercase rounded font-bold hover:bg-white hover:text-black">view all services</button></a>
+            </div>
+        </div>
+        <!-- header end -->
+         <!-- cart -->
+          <div class="main grid  grid-cols-1 gap-7 md:flex md:gap-3">
+            <!-- first cart -->
+                <div class="bg-[#27272a80] hover:bg-[#AE3E10] w-full flex flex-col p-10 gap-4">
+                    <div class="icon text-center">
+                        <iconify-icon class="text-white text-3xl mb-3" icon="dashicons:format-gallery"></iconify-icon>
+                    </div>
+                    <div class="tittle">
+                        <h1 class="text-white text-xl font-bold text-center">Filming Services</h1>
+                    </div>
+                    <div class="description">
+                        <p class="text-center text-white font-bold">
+                            Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismoda
+                        </p>
+                    </div>
+                </div>
+                <!-- end first cart  -->
+
+                <!-- second cart -->
+                <div class="bg-[#27272a80] hover:bg-[#AE3E10] w-full flex flex-col p-10 gap-4">
+                    <div class="icon text-center">
+                        <iconify-icon class="text-white text-3xl mb-3" icon="dashicons:format-gallery"></iconify-icon>
+                    </div>
+                    <div class="tittle">
+                        <h1 class="text-white text-xl font-bold text-center">Filming Services</h1>
+                    </div>
+                    <div class="description">
+                        <p class="text-center text-white font-bold">
+                            Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismoda
+                        </p>
+                    </div>
+                </div>
+                <!-- end second cart  -->
+
+                <!-- third cart -->
+                <div class="bg-[#27272a80] hover:bg-[#AE3E10] w-full flex flex-col p-10 gap-4">
+                    <div class="icon text-center">
+                        <iconify-icon class="text-white text-3xl mb-3" icon="dashicons:format-gallery"></iconify-icon>
+                    </div>
+                    <div class="tittle">
+                        <h1 class="text-white text-xl font-bold text-center">Filming Services</h1>
+                    </div>
+                    <div class="description">
+                        <p class="text-center text-white font-bold">
+                            Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismoda
+                        </p>
+                    </div>
+                </div>
+                <!-- end third cart  -->
+          </div>
+          <!-- end cart -->
+           <!-- subscriber sections  -->
+           <div class="subscriber bg-[#27272a80] grid grid-cols-1 items-center gap-7 justify-center p-14  md:flex md:justify-between  ">
+                 <div class="flex flex-col items-center justify-center gap-2">
+                    <iconify-icon class="text-orange-600 text-3xl" icon="mdi:people-group"></iconify-icon>
+                    <h4 class="font-sans font-extrabold text-white text-4xl">459 K</h4>
+                    <p class="font-sans font-semibold capitalize text-base text-zinc-200">subscribers</p>
+                 </div>
+                 <div class="flex flex-col items-center justify-center gap-2">
+                    <iconify-icon class="text-orange-600 text-3xl" icon="mdi:people-group"></iconify-icon>
+                    <h4 class="font-sans font-extrabold text-white text-4xl">459 K</h4>
+                    <p class="font-sans font-semibold capitalize text-base text-zinc-200">subscribers</p>
+                 </div>
+                 <div class="flex flex-col items-center justify-center gap-2">
+                    <iconify-icon class="text-orange-600 text-3xl" icon="mdi:people-group"></iconify-icon>
+                    <h4 class="font-sans font-extrabold text-white text-4xl">459 K</h4>
+                    <p class="font-sans font-semibold capitalize text-base text-zinc-200">subscribers</p>
+                 </div>
+                 <div class="flex flex-col items-center justify-center gap-2">
+                    <iconify-icon class="text-orange-600 text-3xl" icon="mdi:people-group"></iconify-icon>
+                    <h4 class="font-sans font-extrabold text-white text-4xl">459 K</h4>
+                    <p class="font-sans font-semibold capitalize text-base text-zinc-200">subscribers</p>
+                 </div>
+
+           </div>
+           <!-- end subscriber sections  -->
+      
+    </div>
+  <!-- end section second   -->
+
+<!-- third section  -->
+ <div class=" w-full bg-[rgb(39,39,42)] p-4 flex flex-col lg:flex-row gap-7 xl:px-32 ">
+    <div class="w-full flex flex-col gap-5 items-center justify-center lg:w-1/3 ">
+            <span class=" w-full text-[#E4560D] font-bold text-xl text-center md:text-start ">02.</span>
+            <h1 class="text-3xl w-full text-white font-bold md:text-start lg:text-5xl">Our Clients</h1>
+            <p class="text-center text-white font-bold md:text-start">
+                Donec et enim vitae tellus auctor menean leo diamfeugiat nulla sed. 
+                consequat venenatis est.
+                Praesent commodo consequat pharetra.
+            </p>
+        </div>
+    <div class="grid gap-4 grid-cols-2 md:grid-cols-4 p-6 lg:w-2/3">
+        <div class="flex items-center justify-center rounded-sm bg-[#18181B] p-16 md:px-10 md:py-20 ">
+            <img src="images/client 1.png" alt="" srcset="">
+        </div>
+        <div class="flex items-center justify-center rounded-sm  bg-[#18181B] p-16 md:px-10 md:py-20">
+            <img src="images/client 2.png" alt="" srcset="">
+        </div>
+        <div class="flex items-center justify-center rounded-sm  bg-[#18181B] p-16 md:px-10 md:py-20">
+            <img src="images/client 3.png" alt="" srcset="">
+        </div>
+        <div class="flex items-center justify-center rounded-sm  bg-[#18181B] p-16 md:px-10 md:py-20">
+            <img src="images/client 4.png" alt="" srcset="">
+        </div>
+        <div class="flex items-center justify-center rounded-sm  bg-[#18181B] p-16 md:px-10 md:py-20">
+            <img src="images/client 5.png" alt="" srcset="">
+        </div>
+        <div class="flex items-center justify-center rounded-sm  bg-[#18181B] p-16 md:px-10 md:py-20">
+            <img src="images/client 6.png" alt="" srcset="">
+        </div>
+        <div class="flex items-center justify-center rounded-sm  bg-[#18181B] p-16 md:px-10 md:py-20">
+            <img src="images/client 7.png" alt="" srcset="">
+        </div>
+        <div class="flex items-center justify-center rounded-sm  bg-[#18181B] p-16 md:px-10 md:py-20">
+            <img src="images/client 8.png" alt="" srcset="">
+        </div>
+
+    </div>
+           
+ </div>
+<!-- end  third section -->
+
+<!-- fourth section  -->
+<div class="w-full bg-[#18181B] grid grid-cols-1 gap-4 p-5 xl:px-32 lg:gap-10">
+    <div class="header flex flex-col justify-center items-center md:text-start">
+        <span class=" w-full text-[#E4560D] font-bold text-xl text-center md:text-start ">03.</span>
+        <h1 class="text-3xl w-full text-white font-bold md:text-start">News</h1>
+    </div>
+    <!-- cart -->
+     <div class="cart grid grid-cols-1 md:grid-cols-2 xl:flex xl:flex-row xl:justify-between lg:gap-10 w-full gap-10 ">
+        <div class="first_cart w-full bg-[rgb(39,39,42)] rounded-xl hover:scale-110 transition-all ease-in-out duration-300 hover:shadow-3xl">
+            <div class="image w-full rounded-xl">
+                <img src="images/blog 1.jpg" class="w-full object-cover rounded-xl " alt="blog1" srcset="">
+            </div>
+            <div class="description flex flex-col gap-3 p-6">
+                <h2 class="text-sm font-bold text-[#E4560D]">COMMERCIAL</h2>
+                <h1 class="text-xl font-bold text-white">Quisque Iddiam Velquam Elementum Pulvinar
+                    </h1>
+            </div>
+        </div>
+        <div class="first_cart w-full bg-[rgb(39,39,42)] rounded-xl hover:scale-110 transition-all ease-in-out duration-300 hover:shadow-3xl">
+            <div class="image w-full rounded-xl">
+                <img src="images/blog 2.jpg" class="w-full object-cover rounded-xl" alt="blog1" srcset="">
+            </div>
+            <div class="description flex flex-col gap-3 p-6">
+                <h2 class="text-sm font-bold text-[#E4560D]">COMMERCIAL</h2>
+                <h1 class="text-xl font-bold text-white">Quisque Iddiam Velquam Elementum Pulvinar
+                    </h1>
+            </div>
+        </div>
+        <div class="first_cart w-full bg-[rgb(39,39,42)] rounded-xl hover:scale-110 transition-all ease-in-out duration-300 hover:shadow-3xl">
+            <div class="image w-full rounded-xl">
+                <img src="images/blog 3.jpg" class="w-full object-cover rounded-xl " alt="blog1" srcset="">
+            </div>
+            <div class="description flex flex-col gap-3 p-6">
+                <h2 class="text-sm font-bold text-[#E4560D]">COMMERCIAL</h2>
+                <h1 class="text-xl font-bold text-white">Quisque Iddiam Velquam Elementum Pulvinar
+                    </h1>
+            </div>
+        </div>
+        <div class="first_cart w-full bg-[rgb(39,39,42)] rounded-xl hover:scale-110 transition-all ease-in-out duration-300 hover:shadow-3xl">
+            <div class="image w-full rounded-xl">
+                <img src="images/blog 4.jpg" class="w-full object-cover rounded-xl" alt="blog1" srcset="">
+            </div>
+            <div class="description flex flex-col gap-3 p-6">
+                <h2 class="text-sm font-bold text-[#E4560D]">COMMERCIAL</h2>
+                <h1 class="text-xl font-bold text-white">Quisque Iddiam Velquam Elementum Pulvinar
+                    </h1>
+            </div>
+        </div>
+        
+     </div>
+     <!-- end cart -->
+</div>
+<!-- end  fourth section -->
+
+<!-- contact section  -->
+  <div class="contact p-5 xl:px-32 bg-[#18181B] ">
+    <div class="w-full grid grid-cols-1 md:grid-cols-2  bg-[rgb(39,39,42)] gap-4 rounded-xl ">
+        <div class="w-full description flex flex-col items-center md:items-start justify-center gap-4 p-10 xl:p-20">
+            <span class=" w-full text-[#E4560D] font-bold text-xl text-center md:text-start ">04.</span>
+            <h1 class="text-3xl  text-white text-center w-full font-bold md:text-start">Let's Talk About Your Project</h1>
+            <p class="text-center text-white font-bold md:text-start">
+                Donec et enim vitae tellus auctor menean leo diamfeugiat nulla sed. 
+                consequat venenatis est.
+                Praesent commodo consequat pharetra.
+            </p>
+            <a href="#" class="hover:scale-110 transition-all ease-in-out duration-300 hover:shadow-3xl">
+            <button class="uppercase bg-[rgb(234,88,12)] py-3 px-8 rounded-xl text-white font-bold ">contact</button>
+            </a>
+        </div>
+        <div class="image w-full h-full">
+            <img src="images/person main.png" class="w-full h-full object-cover" alt="">"
+        </div>
+    </div>
+  </div>
     
+ <!-- end contact section  -->
 </body>
 </html>
 
